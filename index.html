@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <!--NAVBAR-->
+    <!--menu-->
    <nav class="nav.navbar navbar-expand-lg bg-black navbar-dark py-3">
         <div class="container">
             <a href="index.html" class="navbar-brand fs-1">TindWare</a>
@@ -40,7 +40,7 @@
         </div>
         </div>
    </nav> 
-   <!--SHOWCASE-->
+   <!--Donde va el inicio de sesion-->
 
     <section class="bg-black text-light p-5 p-lg-3 pt-lg-5 text-center text-sm-start">
             <div class="container">
@@ -62,10 +62,8 @@
             </div>
     </section>
 
-<!--Newsletter-->
 
-
-<!--Boxes-->
+<!--cajones de texto-->
 <section class="p-5">
     <div class="container">
         <div class="row text-center">
@@ -116,7 +114,7 @@
     </div>
 </section>
 
-<!-- Learn sections-->
+<!-- Akgo de informacion sobre la empresa-->
 
 <section id="learn" class="p-5">
     <div class="container">
@@ -216,7 +214,7 @@
         <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
                 <div class="card-body text-center">
-                    <img src="imagen.jpg" class="rounded-circle mb-3 w-50">
+                    <img src="adrian.png" class="rounded-circle mb-3 w-50">
                     <h3 class="card-title mb-3">
                         Adrián Martinez
                     </h3>
@@ -231,7 +229,7 @@
         <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
                 <div class="card-body text-center">
-                    <img src="imagen.jpg" class="rounded-circle mb-3 w-50">
+                    <img src="ANTHONY.png" class="rounded-circle mb-3 w-50">
                     <h3 class="card-title mb-3">
                         Anthony Murriel
                     </h3>
@@ -247,8 +245,7 @@
     </div>
 </section>
 
-<!--Info-->
-
+<!--Información de contacto-->
 <section class="p5">
     <div class="container">
         <div class="row-g-4">
@@ -269,20 +266,14 @@
                         </li>
                     </ul>
             </div>
-
-
         </div>
-
-
     </div>
-
-
 </section>
 
 
 <!-- footer-->
 
-<footer class="p-5 bg-dark text-white text-center position-relative">
+<footer class="p-5 bg-black text-white text-center position-relative">
 
     <div class="container">
         <p class="lead">Copyright &copy; 2022 Tindware</p>
@@ -292,6 +283,8 @@
     </div>
 </footer>
 
+
+<!-- Aqui tenemos el modal de inicio de sesión-->
 <div 
 class="modal fade" 
 id="enroll" 
@@ -302,35 +295,37 @@ aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-titleb" id="enrollLabel">Iniciar sesion</h5>
+          <h5 class="modal-titleb" id="enrollLabel">Iniciar sesión</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-            <p class="lead">Rellena el formulario de inicio se sesion</p>
+           <!--Aqui tenemos el formulario de inicio de sesion -->
             <form>
                 <div class="mb-4">
                     <label for="first-name" class="col-form-label">
                         Usuario:
-                        
                     </label>
                     <input type="text"  id="first-name" class="form-control">
-
+                    <label for="first-name" class="col-form-label">
+                        Contraseña:
+                    </label>
+                    <input type="text"  id="first-name" class="form-control">
                 </div>
             </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn-close" aria-label="Close"></button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Iniciar sesión</button>
         </div>
       </div>
     </div>
   </div>
 
 
-
+<!-- Aqui tenemos el script que permite el menú desplegable-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
